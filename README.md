@@ -1,4 +1,12 @@
-# V2-Injector
+# Kernel cheat injector
+Inject your internal dlls with this please read before using for your safety as this is public and I am not responsible for any bans you may face.
+
+# updated 18/05/2022
+- changed driver issues 
+  - fixed bsod issues when anticheat loads 
+  - fixed hosting server not streaming bytes
+  - bypass guarded regions
+  - dll size can now be higher than 1mb 
 
 
 # changes
@@ -61,18 +69,14 @@ because i dont agree with the fact of many people skidding on developers work in
 # extra features ( with the source code )
 - the source code is not public version it will be a completely undetected injector + driver along with a custom mapper allowing you to bypass vangaurd + faceit blocking methods
 - rwx injection methods 
-- emulate anticheats ( eac + be ) - must be windows version 1909 - 20h2 )
-- dump anti-cheat drivers 
 - dump game offsets + signatures ( Engines supported Ue4, Ue5 , Unity )
 - UI Mode ( imgui mode of the injector )
 - dump games + the game pdb ( some games dont work )
 - you can use detours + minhook
 - decrypt warzone offsets
-- decrypt rainbow 6
 - dump offsets for all titles + auto sig maker
 - choose what injection format you want x86 / x64
 - IAT dumper
-- Dump EAC + BE Drivers
 - Anti-Cheat Emulator ( allowing you to do anything you want practically )
 
 ## how to find my games window class ?
@@ -94,17 +98,3 @@ or if you are wanting to purchase other sources or want something developed let 
 
 
 # added test.dll for testing if injector works :)
-
-
-## what are the benifits with buying the source?
-- the source code is not public version it will be a completely undetected injector + driver along with a custom mapper allowing you to bypass vangaurd + faceit blocking methods 
-
-- UI Mode ( imgui mode of the injector )
-- dump games + the game pdb ( some games dont work )
-- you can use detours + minhook
-- decrypt warzone offsets
-- decrypt rainbow 6
-- dump offsets for all titles + auto sig maker
-- choose what injection format you want x86 / x64
-- IAT dumper
-- Anti-Cheat Emulator ( allowing you to do anything you want practically )
